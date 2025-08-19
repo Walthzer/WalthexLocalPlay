@@ -1,0 +1,8 @@
+{
+    "name": "MOD_NAME",
+    "version_number": "MOD_VERSION",
+    "website_url": "",
+    "author": "MOD_AUTHOR",
+    "description": "This is a template for Mage Arena mods.",
+    "dependencies": ["BepInEx-BepInExPack-5.4.2100", "hiccup-ModSync-1.0.6"]
+}
