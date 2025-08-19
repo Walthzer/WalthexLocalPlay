@@ -17,7 +17,7 @@ Controllers go into a Controllers subfolder
 Managers go into a Managers subfolder
 
 Read the name of the class you are patching to see what the type is.
-This ModTemplate contains an example patch the `MageBookController`, so it is contained in the Controllers subfolder.
+This WalthexLocalPlay contains an example patch the `MageBookController`, so it is contained in the Controllers subfolder.
 
 For more example patches see the BlackMagicAPI github:
 https://github.com/D1GQ/BlackMagicAPI/tree/master/Patches

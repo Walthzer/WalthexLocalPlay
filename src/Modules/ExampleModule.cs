@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ModTemplate.Modules;
+namespace WalthexLocalPlay.Modules;
 
 internal class ExampleModule
 {

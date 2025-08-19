@@ -5,7 +5,7 @@ https://useful.codes/modules-in-c-sharp/
 
 Ensure that the namespace of your modules is a subject of your namespace in Plugin.cs!
 e.g:
-namespace ModTemplate (in Plugin.cs)
+namespace WalthexLocalPlay (in Plugin.cs)
 
 so:
-namespace ModTemplate.Modules (in Modules/*.cs) begins with ModTemplate aswell.
+namespace WalthexLocalPlay.Modules (in Modules/*.cs) begins with WalthexLocalPlay aswell.
