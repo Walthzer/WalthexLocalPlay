@@ -16,7 +16,7 @@
       https://nuget.samboy.dev/v3/index.json
     </RestoreAdditionalProjectSources>
     <!-- Rename to match the name of your mod -->
-    <RootNamespace>ModTemplate</RootNamespace>
+    <RootNamespace>WalthexLocalPlay</RootNamespace>
   </PropertyGroup>
 
 
@@ -24,8 +24,11 @@
   <!-- NuGet Packages. The minimal packages needed for a mod  -->
     <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
     <PackageReference Include="BepInEx.Core" Version="5.*" />
+    <PackageReference Include="CommandLineParser" Version="2.9.1" />
     <PackageReference Include="Lib.Harmony" Version="2.3.6" />
+    <PackageReference Include="System.Text.Json" Version="9.0.8" />
     <PackageReference Include="UnityEngine.Modules" Version="2023.2.20" IncludeAssets="compile" />
+    <PackageReference Include="WatsonTcp" Version="6.0.10" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">
@@ -48,6 +51,12 @@
 	<ItemGroup>
     <!-- Any dll files in the References folder are automatically included into your project -->
 		<Reference Include="References\*.dll" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Update="References\com.rlabrecque.steamworks.net.dll">
+	    <Aliases></Aliases>
+	  </Reference>
 	</ItemGroup>
 
 </Project>

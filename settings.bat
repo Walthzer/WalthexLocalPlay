@@ -11,7 +11,7 @@ set MOD_VERSION=1.0.0
 :: If you are using the Thunderstore local mod approach to start Mage Arena with your mod
 :: And want the build.bat script to automatically update your mod after every build
 :: set this to the path of your local mod in the correct profile
-:: You can find the path from `Settings > Browse Profile Folder` then `BepInEx\plugins\Author-MOD_NAME`
-:: Example: C:\Users\Walthzer\AppData\Roaming\Thunderstore Mod Manager\DataFolder\MageArena\profiles\DEVELOPMENT\BepInEx\plugins\Walthzer-MageArenaWalthexLocalPlay\
+:: You can find the path from `Settings > Browse Profile Folder`
+:: Example: C:\Users\Walthzer\AppData\Roaming\Thunderstore Mod Manager\DataFolder\MageArena\profiles\DEVELOPMENT
 :: This PATH must end in a `\` backslash
-set THUNDERSTORE_LOCAL_MOD_PATH=PUT_PATH_HERE
+set THUNDERSTORE_LOCAL_MOD_PATH=C:\Users\NKvD Officer Walthze\AppData\Roaming\Thunderstore Mod Manager\DataFolder\MageArena\profiles\DEVELOPMENT
